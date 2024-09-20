@@ -1,0 +1,28 @@
+body {
+    background-color:blanchedalmond;
+    color: rgb(160, 119, 7);
+}
+h1 {
+    font-size: 3em;
+    color: gold;
+}
+h2 {
+    font-size: 2em;
+    color: gold;
+}
+h3 {
+    font-size: 1em;
+    color: gold;
+}
+p {
+    text-indent: 2%;
+}
+a {
+    color: black;
+}
+#myHeader {
+    text-decoration: underline;
+}
+.highlight {
+    background-color: rgb(0, 0, 0);
+}
