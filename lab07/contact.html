@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="tierlist.html">Tier List</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="fav-team">Which is your favorite team?</label>
+        <input type="text" id="fav-team" name="fav-team">
+        <br>
+
+        <fieldset>
+            <legend>Is your favorite team on the list?</legend>
+            <input type="radio" id="yes" name="on-list" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="on-list" value="no">
+            <label for="no">No</label>
+        </fieldset>
+        <br>
+
+        <label for="rate-team">Rate your teams performance recently:</label>
+        <select id="rate-team" name="rate-team">
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Fair</option>
+            <option value="1">1 - Poor</option>
+        </select>
+        <br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+        <br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+   
+      
+</body>
+</html>
