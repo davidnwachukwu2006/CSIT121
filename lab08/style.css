@@ -1,0 +1,118 @@
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #0b10b6;
+    border: 0.5em solid darkgoldenrod;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+}
+.sidenav a:hover {
+    background-color: darkgoldenrod;
+    transform: scale(1.05); 
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+h1 {
+    color: #0018b6;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif
+}
+h2 {
+    color: #0018b6;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif
+}
+p {
+    background-color: #0018b6;
+    color: #ffffff;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+em {
+    color: darkgoldenrod;
+}
+footer {
+    color:darkgoldenrod ;
+    text-align: center;
+    font-style: italic;
+}
+.highlight {
+    font-size: medium;
+    font-weight: normal;
+}
+#page {
+    border: 12px solid darkgoldenrod;
+    padding: 0.5cm;
+    width: 90%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px
+}
+img {
+   margin: auto; 
+     
+}
+main {
+    text-align: center;
+}
+.published {
+    background-color: #ffffff;
+    color: darkgoldenrod;
+    font-style: italic;
+}
+body {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+a {
+    color: darkgoldenrod ;
+}
+.menu-button {
+    display: inline-block;
+    background-color: darkgoldenrod; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    border: none;
+    border-radius: 8px; 
+    text-align: center; 
+}
+.menu-button:hover {
+    background-color: darkgoldenrod; 
+    transform: scale(1.05); 
+}
